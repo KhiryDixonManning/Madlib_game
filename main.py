@@ -32,6 +32,8 @@ def create_madlib():
 
     madlib_story = (f"The Adventure of the {adjective1} {noun1} ")
 
+    print(madlib_story)
+
     print(f"One day, a {adjective1} {noun1} decided to go on an adventure.") 
     print(f"It was feeling {adjective3} and wanted to {verb1} through the {place}.")
     print(f"The {noun3} packed its {adjective4} bag with a {noun4} and a {adjective5} {noun5}, then set off into the {adjective6} forest.")
@@ -41,8 +43,5 @@ def create_madlib():
     print(f"At the top, they found a {noun7} made of {material}, waiting for them.")
     print(f"The {noun8} was so {adjective9} that they both {verb4} in excitement.")
     print(f"They decided to {verb5} back home, feeling {adjective10} and {adjective11}.")
-    
-    
-    print(madlib_story)
 
 create_madlib()
